@@ -10,7 +10,7 @@ class Solution(object):
         if not head or not head.next:
             return head
         
-        odd_tal = head
+        odd_tail = head
         even_head = head.next
         even_tail = even_head
         current_node = head.next.next
