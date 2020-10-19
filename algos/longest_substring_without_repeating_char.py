@@ -32,7 +32,7 @@ class Solution:
             if s[end] in seen: #if we have already seen the character
                 start = max(start, seen[s[end]] + 1) #if we have seen the number, move the start to position after the last occurrence
                 
-            #updating last seen value of character
+            #updating last seen index of each character
             seen[s[end]] = end
             max_length = max(max_length, end-start + 1)
         return max_length 
