@@ -27,7 +27,7 @@ def checkInclusion(s1,s2):
 
 
 
-# 2)see s1 how many letters 
+# 2)if both contain the same characters the same number of times
 def checkInclusion_sorted(s1,s2):
     s1_sorted = ''.join(sorted(s1))
     len_s1 = len(s1)
