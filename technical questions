@@ -1,0 +1,48 @@
+Many candidates just read through problems and solutions. You need to practice solving problems. 
+
+Memorizing won't help you much. 
+
+1. Try to solve the problem on your own.
+
+2. Write the code on paper.
+
+3. Test the code - on papar.
+
+4. Type you paper code as-in onto a computer. 
+
+Walking through a problem:
+
+1. Listen
+2. Example
+3. Brute Force
+4. Optimise
+5. Walk through
+6. Implement
+- Your goal is to write beautiful code. Modularise your code from the beginning and refactor 
+to clean up anything that isn't beautiful. !!!
+7. Test
+
+-> Listen to guidance from the interviewer.
+
+-> Make sure you you hear the problem correctly. Clarify. Mentally record any unique information in the problem.
+ 
+ -> When you get a question, try to just work through it through intuition on a real example. Often a 
+ bigger example will be easier. Your intuition will give you a nice algorithm. 
+
+Our brains are funny. Throw the phrase "Design an algorithm" and people get jumbled up. 
+
+Handling incorrect answers:
+
+-> Responses to interview questions shouldn't be thought of as "correct" or "incorrect". No interviewer ever thinks "how many questions did the candidate get right?". It's not a binary evaluation. Rather, it's about how optimal their solution was, how much help they needed, how clean was their code. There is a range of factors. 
+
+-> Your performance is evaluated in comparison to other candidates. 
+
+-> Many or possibly most qiestions are too difficult to expect even a strong candidate to immediately spit out the optimal algorithm. 
+
+What good coding looks like: 
+
+-> Correct - The code should operate correctly on all expected and unexpected inputs.
+-> Efficient - as efficient as possible in terms of both time and space. 
+-> Simple - code should be as simple as possible for a developer to write.
+-> Maintainable - code should be easonably adaptable to changes during the life cycle of a product and should be easy to maintain by other devlopers, as well as the initial developer. 
+
