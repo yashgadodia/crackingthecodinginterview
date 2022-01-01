@@ -1,0 +1,49 @@
+-> You can have multiple variables in your runtime. 
+-> Big 0 is upper bound. Big omega is lower bound. Big theta is tight bound. Industry has merged big O and big theta.
+Now, big 0 is tightest describption of the runtime. 
+
+For example, 
+
+Quicksort: 
+
+Best case, if all elements are equal than quick sort will traverse the array just once. This is 
+O(N). 
+
+Worst case, if pivot is repeatedly the biggest element (if pivot is chosen to be first element 
+and array is in reverse order. In this case, the recursion will not divide the array in half and recurse on
+each half. It just shrinks the subarray by one element.) This makes it O(N**2) 
+
+Expected case: O(N)log(N)
+
+For most algorithms, note the expected and the worst case are the same. 
+
+Space complexity:
+
+2D arrays are O(N**2). 
+
+Stack space in recursive calls take up space. 
+
+-> Amortized time - the worst case happens once in a while. But when it happens, it will not happen again
+for very long. Example - ArrayList insertion is 0(2X), but amortised time for each insertion is O(1).
+
+Log N Runtimes:
+
+When you see a problem where the number of elements in the problem space get halfed each time, that is like a 
+O(log N) runtime. 
+
+The base of the log doesn't matter, as the log of different bases are only different by a constant factor. 
+This doesn't apply to exponents. 
+
+When you see a recursive funtion that makes multiple calls, the runtime will often (but not always) looks like
+O(branches ** depth), where branches are the number of times each recursive call branches. In this case,
+O(2**N).
+
+If statements are always O(1) - just a sequence of constant time analysis. 
+
+
+If there are two different inputs, both matter. So it wont be O(N**2). 
+
+Sorting a string is O(N log N) optimal time for a comparison sort. 
+
+Generally, if you are seeing an algo with multiple recursive calls, you're looking at exponential runtime. 
+
